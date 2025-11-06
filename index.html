@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+      <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Рівне - місто з добрим серцем</title>
+</head>
+<body>
+
+    <!-- Завдання 2: Шапка сайту -->
+    <header>
+        <h1>Рівне - місто з добрим серцем</h1>
+        <p>Відкрийте для себе красу та історію столиці Полісся</p>
+    </header>
+
+    <!-- Навігація -->
+    <nav>
+        <a href="#history">Історія</a> |
+        <a href="#landmarks">Пам'ятки</a> |
+        <a href="#gallery">Галерея</a> |
+        <a href="#contact">Контакти</a>
+    </nav>
+
+    <!-- Завдання 3: Історія міста -->
+    <section id="history">
+        <h2>Історія Рівного</h2>
+        <p>Рівне — одне з найдавніших міст України, перші письмові згадки про нього датуються 1283 роком. 
+           Місто відігравало важливу роль як торговий та культурний центр Волині.</p>
+        <p>Протягом століть Рівне перебувало під владою різних держав — Литви, Польщі, Російської імперії, 
+           а у ХХ столітті стало частиною незалежної України. Сьогодні це сучасне місто з багатою історією.</p>
+
+        <ol>
+            <li>1283 — перша письмова згадка про Рівне</li>
+            <li>1492 — отримання Магдебурзького права</li>
+            <li>1939 — входження до складу УРСР</li>
+            <li>1991 — Рівне у незалежній Україні</li>
+        </ol>
+    </section>
+
+    <!-- Завдання 4: Визначні пам'ятки -->
+    <section id="landmarks">
+        <h2>Визначні пам'ятки Рівного</h2>
+        <table border="1">
+            <tr>
+                <th>Назва пам'ятки</th>
+                <th>Рік побудови</th>
+                <th>Опис</th>
+            </tr>
+            <tr>
+                <td>Свято-Воскресенський собор</td>
+                <td>1895</td>
+                <td>Один із головних храмів міста, побудований у неовізантійському стилі.</td>
+            </tr>
+            <tr>
+                <td>Парк культури і відпочинку ім. Т. Шевченка</td>
+                <td>1948</td>
+                <td>Найпопулярніше місце для прогулянок серед жителів Рівного.</td>
+            </tr>
+            <tr>
+                <td>Музично-драматичний театр</td>
+                <td>1940</td>
+                <td>Відомий осередок театрального мистецтва Волині.</td>
+            </tr>
+            <tr>
+                <td>Пам'ятник Марії Несвицькій</td>
+                <td>2000</td>
+                <td>Вшанування історичної постаті, пов’язаної з розвитком Рівного.</td>
+            </tr>
+            <tr>
+                <td>Рівненський обласний краєзнавчий музей</td>
+                <td>1929</td>
+                <td>Містить понад 140 тисяч експонатів з історії та культури регіону.</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Завдання 5: Фотогалерея -->
+    <section id="gallery">
+        <h2>Фотогалерея міста</h2>
+        <p>Центер Міста Рівного</p>
+        <img src="https://dovkola.media/wp-content/uploads/2022/10/i129069.jpeg" alt="Центр міста Рівне" width="300">
+        <p>Рівненський драмтеатр</p>
+        <img src="https://kultura.rayon.in.ua/storage/cache/images/upload/news/35/2022-11/28-BhvvE51B/700x371-6384979bf3b15.webp" alt="Рівненський драмтеатр" width="300">
+        <p>Парк Тараса Шевченка </p><img src="https://kyivtime.co.ua/wp-content/uploads/2025/05/park-imeni-tarasa-shevchenka_2-1200x742-1.jpeg" alt="Парк Шевченка" width="300">
+       <p>Свято-Воскресенський собор</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/%D0%92%D0%BE%D1%81%D0%BA%D1%80%D0%B5%D1%81%D0%B5%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_%D0%B2_%D0%A0%D1%96%D0%B2%D0%BD%D0%BE%D0%BC%D1%83_DSC_5819.JPG" alt="Свято-Воскресенський собор" width="300">
+        <p>Краєзнавчий музей</p>
+        <img src="https://museum.rv.gov.ua/uploads/images/pages/price/event5294.jpg" alt="Краєзнавчий музей" width="300">
+        <p>Озеро в рівному</p>
+        <img src="https://itvmg.com/img/1000/20220622_4403.jpeg" alt="Озеро в Рівному" width="300">
+    </section>
+
+    <!-- Завдання 6: Форма зворотного зв'язку -->
+    <section id="contact">
+        <h2>Зв'яжіться з нами</h2>
+        <form>
+            <label>Ім'я:</label><br>
+            <input type="text" name="name"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email"><br><br>
+<label>Улюблена пам'ятка:</label><br>
+            <select name="landmark">
+                <option>Свято-Воскресенський собор</option>
+                <option>Парк ім. Шевченка</option>
+                <option>Драмтеатр</option>
+                </select><br><br>
+
+            <label>Коментар:</label><br>
+            <textarea name="comment" rows="4" cols="40"></textarea><br><br>
+
+            <input type="submit" value="Надіслати">
+        </form>
+    </section>
+
+    <!-- Завдання 7: Футер -->
+    <footer>
+        <p>© 2024 Рівне. Всі права захищені.</p>
+        <p>Контактний email: <a href="mailto:info@rivne.city">info@rivne.city</a></p>
+        <a href="#">Facebook</a> | <a href="#">Instagram</a>
+    </footer>
+
+</body>
+</html>
